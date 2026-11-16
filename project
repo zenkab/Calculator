@@ -81,14 +81,14 @@ public class CalculatorApp {
 
     public static int divide(int a, int b) {
         if (b == 0) {
-            return 0;   // επιστρέφει 0 ή μπορεί να χειριστεί διαφορετικά
+            return 0;   
         }
         return a / b;
     }
 
     public static int modulo(int a, int b) {
         if (b == 0) {
-            return 0;   // επιστρέφει 0 ή μπορεί να χειριστεί διαφορετικά
+            return 0;   
         }
         return a % b;
     }
